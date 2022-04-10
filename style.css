@@ -1,0 +1,47 @@
+ul{
+  list-style:none;
+  margin:5px;
+  padding-left:0px;
+  margin-top: 25px;
+  background: black;
+  height: 50px;
+}
+a{
+  text-decoration:none;
+  background: black;
+  color: #ffffff;
+  padding: 0px 15px;
+  font-family: Times New Roman;
+  line-height: 50px;
+  display: block;
+  border-right: 1px solid;
+}
+a:hover {
+  background: gray;
+}
+li{
+  float:left;
+  margin-right: 5px;
+}
+li > ul{
+  position: absolute;
+  top: 50px;
+  display: none;
+}
+li:hover > ul{
+  display: block;
+  width: 100px;
+}
+li:hover > ul > li{
+  float: none;
+}
+body{
+  background-image: url("images/bghm.gif");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 1000px
+}
+h1{
+  position: center;
+}
